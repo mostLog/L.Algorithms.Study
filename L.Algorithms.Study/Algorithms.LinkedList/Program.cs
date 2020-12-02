@@ -6,7 +6,15 @@ namespace Algorithms.LinkedList
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+
+            SingleList<int> singleList = new SingleList<int>();
+
+            singleList.Append(1);
+            singleList.Append(2);
+            singleList.Append(3);
+            singleList.Append(4);
+            Console.WriteLine(singleList.GetLength());
+            Console.ReadLine();
         }
     }
 }
